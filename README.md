@@ -1,7 +1,7 @@
 # DoorLock-System
 
 By using atmega16 i have implemented a doorlock system that have *TWO* microcontrollers, 
-the first one is for human interface and didn't take any discussion to open the door or not,
+the first one is for human interface and didn't take any dicision to open the door or not,
 it's only for taking input from keypad and according to Microcontroller2 ,
 it displays the needed screen. The other Microcontroller (2) is saving the password in external EEPROM by using I2C (twi) and by using motor and buzzer we check if the password correct after choose to open door. the buzzer will not work and the door will open in 15 sec and close in 15 sec by using timer0 in Normal Mode.
 if the password is wrong, Microcontroller(2) communicate with Microcontroller(1) by UART communication protocol to make the user re-enter the password after knowing that it is a wrong password. The password is 5 digits.
