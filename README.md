@@ -23,3 +23,6 @@ We have our 1st screen to enter 5 digits of password.
 Then after pressing enter '=' we will need to re-enter password. if wrong we will go to the 1st screen.
 If accepted we will go to main options as we have 2 options, + for OpeningDoor, - for Change password.
 for any choice if we have a wrong password we will try to enter it again until we got the right password.
+
+Video Link for proteus:
+https://www.linkedin.com/posts/ahmed-gamal-007aa4192_im-delighted-to-share-that-experience-with-activity-6956071736563892224-AYCS?utm_source=linkedin_share&utm_medium=member_desktop_web
